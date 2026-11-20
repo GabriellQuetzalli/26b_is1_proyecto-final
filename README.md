@@ -43,13 +43,29 @@
 - [Módulo 2: Inscripciones](./modulos/modulo-inscripciones.md)
 - 
 - [Módulo 4: Asignaturas/Materias](./modulos/m4_asignaturas.md)
+-
+- [Módulo Registro de calificaciones (Equipo 6)](./modulos/m8_calificaciones.md)
+- [Módulo Catálogo de exámenes (Equipo 6)](./modulos/m9_catalogo_examenes.md)
 
 ## Autenticación y autorización
 
 {TODO - tabla de aginacion de permisos roles versus modulos}
 
 # Abreviaturas
-
+- **RF:** Requerimiento funcional.
+- **RNF:** Requerimiento no funcional.
+- **UC:** Caso de uso (*use case*).
+- **UML:** Lenguaje Unificado de Modelado.
+- **ER:** Modelo entidad-relación.
+- **NP:** No presentó (calificación de un alumno que no se presentó al examen).
 # Nomenclaturas
+Nombres de archivo que usa el Equipo 6:
 
+| Archivo | Qué es | Ejemplo |
+|---|---|---|
+| `mN_nombre.md` | Documento del módulo N | `m8_calificaciones.md` |
+| `ucNN_accion_tipo.puml` | Diagrama de un caso de uso; `tipo` es componentes, secuencia o actividades | `uc01_capturar_calificaciones_secuencia.puml` |
+| `estados_objeto.puml` | Diagrama de estados de un objeto | `estados_acta.puml` |
+| `eN_nombre.uml` (en `docs/architecture/diagrams`) | Diagrama de arquitectura del equipo N | `e6_clases_calificaciones_catalogo.uml` |
+| `.puml` / `.uml` y `.png` | Código fuente PlantUML y su imagen; llevan el mismo nombre | `estados_acta.puml` y `estados_acta.png` |
 # Referencias bibliográficas 
